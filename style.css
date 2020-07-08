@@ -34,3 +34,43 @@
 .green-text{
     color:#21b573 ;
 }
+.sec1, .sec2, .sec3, .sec4{
+    background-color: #f8fffb;
+    padding: 40px 40px;
+    text-align: center;
+    align-items: center;
+}
+
+.sec1 img{
+    width: 66%;
+    align-items: center;
+}
+.sec2 img{
+    width: 80%;
+}
+.sec3 img{
+    width: 75%;
+}
+.sec4 img{
+    width: 68%;
+}
+.sec1:hover{
+    background-color:rgb(243, 239, 239);
+    box-shadow: 5px 10px 30px gray;
+    transition: 1s;
+}
+.sec2:hover{
+    background-color:rgb(243, 239, 239);
+    box-shadow: 5px 10px 30px gray;
+    transition: 1s;
+}
+.sec3:hover{
+    background-color:rgb(243, 239, 239);
+    box-shadow: 5px 10px 30px gray;
+    transition: 1s;
+}
+.sec4:hover{
+    background-color:rgb(243, 239, 239);
+    box-shadow: 5px 10px 30px gray;
+    transition: 1s;
+}
