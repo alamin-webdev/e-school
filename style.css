@@ -1,0 +1,36 @@
+.container{
+    margin-bottom: 80px;
+}
+.green-bg{
+    background-color:#f0fff0;
+}
+.container img{
+     width: 100%;
+}
+.btn{
+    width: max-content;
+    color: white;
+    border-radius: 20px;
+    background-color: #21b573;
+}
+.navbar-nav a{
+    font-weight: 700;
+    
+}
+.row{
+    padding: 20px 40px ;
+    bor
+}
+.row h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.row h6{
+    color: orangered;
+}
+.row p{
+    color: gray;
+}
+.green-text{
+    color:#21b573 ;
+}
