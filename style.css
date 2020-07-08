@@ -130,6 +130,7 @@
     text-decoration: none;
     color: white;
     font-size: 18px;
+    transition: all linear 0.3s
 }
 .footer a:hover{
     color: rgb(230, 207, 2);
