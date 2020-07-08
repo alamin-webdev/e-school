@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-School</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -12,7 +13,7 @@
     <div class="container green-bg">
       <nav class="navbar navbar-expand-lg navbar-light  ">
           <a class="navbar-brand" href="#">
-              <img style="width: 20%;" src="images/icon/Logo.png" alt="">
+              <img style="width: 20%;" class="img-fluid" src="images/icon/Logo.png" alt="">
           
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,7 +45,7 @@
 
                 </div>
                 <div class="col-md-7">
-                    <img src="images/Illustration.png" alt="">
+                    <img class="img-fluid" src="images/Illustration.png" alt="">
                 </div>
               </div>                   
             </div>
@@ -53,47 +54,186 @@
     
   <!-- category section -->
 
-  <div class=" container category">
+  <div class=" container category" id="books">
     <div class="row ">
-      <div class="col-md-3">
+      <div class="col-md-3 col-sm-6 col-3 ">
         <div class="sec1 ">
-          <img src="images/icon/book.png" alt="">
+          <img class="img-fluid" src="images/icon/book.png" alt="">
           <h5>1500+ Topic </h5>
           <p>Learn Anythings </p>
           
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 col-sm-6 col-3 ">
         <div class="sec2 ">
-          <img src="images/icon/Student.png" alt="">
+          <img class="img-fluid" src="images/icon/Student.png" alt="">
           <h5>1800+ Students</h5>
           <p>Learn Anythings</p>        
         </div>
       </div>
-      <div class="col-md-3  ">
+      <div class="col-md-3 col-sm-3 col-3 ">
         <div class="sec3 ">
-          <img src="images/icon/Test.png" alt="">
+          <img class="img-fluid" src="images/icon/Test.png" alt="">
           <h5>9K+Test Token</h5>
           <p>Learn Anythings</p>     
         </div>
       </div>
-      <div class="col-md-3  ">
+      <div class="col-md-3 col-sm-3 col-3  ">
         <div class="sec4 ">
-          <img src="images/icon/Students.png" alt="">
+          <img class="img-fluid" src="images/icon/Students.png" alt="">
           <h5>2000+ Student</h5>
           <p>Learn Anythings</p>
         </div>
       </div>
     </div>
   </div>
+<!-- online course section -->
 
+<section id="course">
+  <h2 style="font-family: Poppins; font-weight: 700; text-align: center;">Online Courses</h2>
+  <div class="container course">
+    <div class="card-deck">
+      <div class="card">
+        <img class="img-fluid" src="images/Morder psyc.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Modern Psychology</h5>
+          <p class="card-text">Designation</p>
+          <h5>200$</h5>
+        </div>
+        <button style="margin-bottom: 10px;" type="button" class="btn ">Buy course</button>
+        <div class="course-footer d-flex justify-content-between" >
+          <div>
+            <img class="img-fluid" src="images/icon/calendar.png" alt="">
+            <small>Start 20 April, 2021</small>
+          </div> 
+          <div>
+            <img class="img-fluid" src="images/icon/people.png" alt="">
+            <small>60 seats</small>
+          </div>                      
+        </div>
+      </div>
+        <div class="card">
+          <img  class="img-fluid"src="images/Morder pychons.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Modern Psychology</h5>
+              <p class="card-text">Designation</p>
+              <h5>400$</h5>
+            </div>
+          <button style="margin-bottom: 10px;" type="button" class="btn ">Buy course</button>
+            <div class="course-footer d-flex justify-content-between" >
+              <div>
+                <img class="img-fluid" src="images/icon/calendar.png" alt="">
+                <small>Start 20 April, 2021</small>
+              </div> 
+              <div>
+                <img class="img-fluid" src="images/icon/people.png" alt="">
+                <small>60 seats</small>
+              </div>                      
+            </div>
+        </div>
+        <div class="card">
+          <img class="img-fluid" src="images/Morder pyschology.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Modern Psychology</h5>
+                <p class="card-text">Designation</p>
+                <h5>900$</h5>
+            </div>
+            <button style="margin-bottom: 10px;" type="button" class="btn ">Buy course</button>
+              <div class="course-footer d-flex justify-content-between" >
+                <div>
+                  <img class="img-fluid" src="images/icon/calendar.png" alt="">
+                  <small>Start 20 April, 2021</small>
+                </div>   
+                <div>
+                  <img class="img-fluid" src="images/icon/people.png" alt="">
+                  <small>60 seats</small>
+                </div>                    
+              </div>  
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ <!-- Testimonial -->
+
+<section id="others">
+  <h2 style="font-family: Poppins; font-weight: 700; text-align: center;">Testimonial</h2>
+
+  <div class=" container align-items-center testimonial">
+    <div class="row ">
+      <div class="col-md-3 col-sm-6 col-6">
+        
+          <img class="img-fluid" src="images/Man.png" alt="">
         
 
-         
+      </div>
+      <div class="col-md-8 col-sm-12 col-12 testimonial-text">
+        
+          <b>There are many variations of passages of Lorem Ipsum available, but the
+            majority have suffered alteration in some form, by injected humour,  
+           or randomised words which don't look even slightly believable.</b>
+        
+        
 
+      </div>
+    </div>
 
+  </div>
 
+</section>
 
+<!-- footer section -->
+<section class="footer">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-5 col-sm-6 col-6">
+              <small>Millions of people of all ages and from around
+                the world are improving their lives with us</small>
+
+                
+          </div>
+          <div class="col-md-2 col-sm-2 col-5">
+            <h4><u>Course</u></h4>
+            
+                <a href="#">Graphics Design</a>
+                <a href="#">Web Design</a>
+                <a href="#">Business</a>
+                <a href="#">Marketing</a>
+                <a href="#">Engineering</a>
+            
+        </div>
+        <div class="col-md-2 col-sm-2 col-5">
+          <h4><u>Terms</u></h4>
+          
+              <a href="#">Graphics Design</a>
+              <a href="#">Web Design</a>
+              <a href="#">Business</a>
+              <a href="#">Marketing</a>
+              <a href="#">Engineering</a>
+          
+        </div>
+        <div class="col-md-2 col-sm-2 col-5">
+          <h4><u>Useful link</u></h4>
+          
+              <a href="#">Graphics Design</a>
+              <a href="#">Web Design</a>
+              <a href="#">Business</a>
+              <a href="#">Marketing</a>
+              <a href="#">Engineering</a>
+
+          
+        </div>
+                                     
+          
+      </div>
+  </div>
+  
+</section>
+<footer class="copyright">
+  <div class="container text-center">
+      <p>Copyright © 2020 E-school.com</p>
+  </div>
+</footer>
 
 
 <!-- javascript -->
